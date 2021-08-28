@@ -1,5 +1,5 @@
 import './App.css';
-import getItem from "@/use-effect-usage";
+// import getItem from "@/use-effect-usage";
 
 
 function App() {
@@ -8,7 +8,8 @@ function App() {
       <header className="App-header">
         {'React Basics'}
       </header>
-      {getItem()}
+      {/* Relative pathi henüz görmüyor */}
+      {/* {getItem()} */}
     </div>
   );
 }
